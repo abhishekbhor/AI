@@ -10,7 +10,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 ## Projects
 
 <h3>
- I. Big Data Analysis & Prediction
+ <span style="color: #507d2a;">I. Big Data Analysis & Prediction</span>
  </h3>
 
  <a href="https://medium.com/@nkoro/heart-health-education-is-there-something-were-missing-ee41292c7729"> 
