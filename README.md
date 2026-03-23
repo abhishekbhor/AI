@@ -20,13 +20,13 @@ My current focus is creating AI products that integrate seamlessly into workflow
  Big Data Analysis & Prediction<img src="assets/img/heart-health-image.png"></a></h3>
 
 <b>1. Programming & Libraries</b>
-- Python: The primary programming language used for the study.
+- <b>Python</b>: The primary programming language used for the study.
 
-- SciKit-Learn (sklearn): Used for building, training, and evaluating the machine learning models.
+- <b>SciKit-Learn (sklearn)</b>: Used for building, training, and evaluating the machine learning models.
 
-- Pandas & NumPy: Utilized for data wrangling, cleaning (dropping nulls/duplicates), and data manipulation.
+- <b>Pandas & NumPy</b>: Utilized for data wrangling, cleaning (dropping nulls/duplicates), and data manipulation.
 
-- Matplotlib & Seaborn: Used for Exploratory Data Analysis (EDA) to create visualizations like correlation heatmaps, bar charts, and dendrograms.
+- <b>Matplotlib & Seaborn</b>: Used for Exploratory Data Analysis (EDA) to create visualizations like correlation heatmaps, bar charts, and dendrograms.
 
 <b>2. Machine Learning Models</b>
 - The team tested multiple classification algorithms to determine the best predictor for heart attacks:
