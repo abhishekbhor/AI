@@ -55,7 +55,8 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 <b>4. Data Source</b>
 2022 CDC Annual Survey: Specifically the "Key Indicators of Heart Disease" dataset, which provided the raw data for the 40+ variables analyzed in the study.
-
+<br>
+<hr style="border: none; border-top: 1px dotted grey;">
 <br>
 <h3>
  Multi-Modal Image Synthesis & Semantic Segmentation
