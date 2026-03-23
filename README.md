@@ -50,9 +50,9 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 <br>
 
-<hr style="border: none; border-top: 1px dotted grey;">
+<!-- <hr style="border: none; border-top: 1px dotted grey;">
 
-<br>
+<br> -->
 <h3>
  <span style="color: #507d2a;">II. Multi-Modal Image Synthesis & Semantic Segmentation</span>
 </h3>
