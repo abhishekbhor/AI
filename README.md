@@ -24,6 +24,8 @@ My current focus is creating AI products that integrate seamlessly into workflow
  <a href="https://medium.com/@nkoro/heart-health-education-is-there-something-were-missing-ee41292c7729"> 
  <img src="assets/img/heart-health-image.png"></a>
 
+ <p>The study used machine learning models like Random Forest and oversampling techniques (SMOTE) to analyze 2022 CDC data and identify key predictors of heart attacks. It concluded that while age and angina are primary factors, unexpected variables like dental health (removed teeth) also significantly influence heart attack probability.</p>
+
 <b>1. Programming & Libraries</b>
 - <b>Python</b>: The primary programming language used for the study.
 
