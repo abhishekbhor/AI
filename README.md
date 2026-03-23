@@ -42,7 +42,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 - Feature Engineering: * One-Hot Encoding & Label Encoding: Used to convert categorical strings (like RaceEthnicityCategory or SmokerStatus) into numerical data for the models.
 
--- Dendrograms: Used for hierarchical clustering to identify and remove highly correlated (redundant) features.
+- Dendrograms: Used for hierarchical clustering to identify and remove highly correlated (redundant) features.
 
 - Evaluation Metrics: The study relied on Confusion Matrices, Recall, Precision, F1 Score, and ROC/AUC Curves to validate the models.
 
