@@ -54,7 +54,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 <br>
 <h3>
-II. Multi-Modal Image Synthesis & Semantic Segmentation
+ <span style="color: #507d2a;">II. Multi-Modal Image Synthesis & Semantic Segmentation</span>
 </h3>
  
  <img src="assets/img/comp-vision.png">
