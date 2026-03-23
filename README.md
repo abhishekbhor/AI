@@ -6,10 +6,6 @@ My current focus is creating AI products that integrate seamlessly into workflow
 - M.S., Computer Science - University of Pennsylvania (Upenn)
 - M.S., Architecture - Texas A&M University (TAMU)
 
-### Work Experience
-- Led end-to-end development of AI-enabled workflow products, from concept exploration through launch, adoption, and scale, supporting 50K+ users across 5K organizations.
-- Designed AI-assisted agent-like workflows for documentation review, coding prioritization, and case targeting—reducing manual effort while preserving clinical intent and compliance.
-- Defined product strategy and multi-year roadmaps focused on embedding AI into clinician-adjacent workflows, reducing administrative burden and improving throughput, accuracy, and downstream revenue outcomes.
 
 ### Projects
 
