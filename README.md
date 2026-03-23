@@ -12,9 +12,6 @@ My current focus is creating AI products that integrate seamlessly into workflow
 - Defined product strategy and multi-year roadmaps focused on embedding AI into clinician-adjacent workflows, reducing administrative burden and improving throughput, accuracy, and downstream revenue outcomes.
 
 ### Projects
-#### Field Agent Portal & Provider Affiliation Automation
-#### Enterprise Data Warehouse Cloud Migration, Databricks Lakehouse
-
 
 <h3>
  <a href="https://medium.com/@nkoro/heart-health-education-is-there-something-were-missing-ee41292c7729">
@@ -55,13 +52,31 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 <b>4. Data Source</b>
 2022 CDC Annual Survey: Specifically the "Key Indicators of Heart Disease" dataset, which provided the raw data for the 40+ variables analyzed in the study.
+
 <br>
+<br>
+
 <hr style="border: none; border-top: 1px dotted grey;">
+
 <br>
 <h3>
- Multi-Modal Image Synthesis & Semantic Segmentation
- </h3>
+Multi-Modal Image Synthesis & Semantic Segmentation
+</h3>
  
  <img src="assets/img/comp-vision.png">
 
 <p>Engineered a computer vision pipeline utilizing Mask R-CNN for image segmentation and Pose Estimation algorithms to seamlessly integrate dynamic objects into complex environments, optimizing for spatial consistency and blending.</p>
+
+<b>1. Image Segmentation</b> with <b>Meta's SAM2</b>
+- <b> Predictor Mask</b> : Didn’t use 'Automatic Mask Detector' because it was segmenting every object in the picture.
+User had to try and select, which configuration to use for final mask. While the Predictor Mask allowed user to select their object to create mask.
+
+<b>2. Pose Adjustment</b> with <b>ChatPose</b>
+- Researched analyzed, and didn't use as integration with Google Colab was found tricky.
+
+<b>3. Blending Algorithms</b>
+- <b>OpenCV Linear Interpolation</b> Analyzed Adobe Unihuman, Stable Diffusion & Impainting and CV2 seamlessClone, but didn't use.
+
+<b>4. Object Selection</b>
+- <b>Jupyter BBox Widget</b>
+
