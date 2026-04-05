@@ -28,41 +28,22 @@ This project demonstrates how LLM systems move beyond simple prompts into <stron
 <h4>Key Capabilities</h4>
 
 <ul>
-  <li style="margin-bottom: 0; margin-top: 0;"><strong>Hybrid Retrieval</strong>
-    <ul>
-      <li style="margin-bottom: 0; margin-top: 0;">Combines semantic search (FAISS) + keyword search (BM25)</li>
-    </ul>
+  <li style="margin-bottom: 0; margin-top: 0;"><strong>Hybrid Retrieval</strong>: Combines semantic search (FAISS) + keyword search (BM25)
   </li>
 
-  <li style="margin-bottom: 0; margin-top: 0;"><strong>Reranking Layer</strong>
-    <ul>
-      <li style="margin-bottom: 0; margin-top: 0;">Improves relevance before generation</li>
-    </ul>
+  <li style="margin-bottom: 0; margin-top: 0;"><strong>Reranking Layer</strong>: Improves relevance before generation
   </li>
 
-  <li style="margin-bottom: 0; margin-top: 0;"><strong>LLM Answer Generation</strong>
-    <ul>
-      <li style="margin-bottom: 0; margin-top: 0;">Context-aware responses using retrieved chunks</li>
-    </ul>
+  <li style="margin-bottom: 0; margin-top: 0;"><strong>LLM Answer Generation</strong>: Context-aware responses using retrieved chunks
   </li>
 
-  <li style="margin-bottom: 0; margin-top: 0;"><strong>Observability & Metrics</strong>
-    <ul>
-      <li style="margin-bottom: 0; margin-top: 0;">Latency tracking across pipeline stages</li>
-      <li style="margin-bottom: 0; margin-top: 0;">Retrieval diagnostics (scores, ranking signals)</li>
-    </ul>
+  <li style="margin-bottom: 0; margin-top: 0;"><strong>Observability & Metrics</strong>: Latency tracking across pipeline stages, Retrieval diagnostics (scores, ranking signals)
   </li>
 
-  <li style="margin-bottom: 0; margin-top: 0;"><strong>Caching Layer</strong>
-    <ul>
-      <li style="margin-bottom: 0; margin-top: 0;">Reduces repeated query latency (milliseconds vs seconds)</li>
-    </ul>
+  <li style="margin-bottom: 0; margin-top: 0;"><strong>Caching Layer</strong>: Reduces repeated query latency (milliseconds vs seconds)
   </li>
 
-  <li style="margin-bottom: 0; margin-top: 0;"><strong>Feedback Loop</strong>
-    <ul>
-      <li style="margin-bottom: 0; margin-top: 0;">User ratings influence future ranking decisions</li>
-    </ul>
+  <li style="margin-bottom: 0; margin-top: 0;"><strong>Feedback Loop</strong>: User ratings influence future ranking decisions
   </li>
 
   <li style="margin-bottom: 0; margin-top: 0;"><strong>Evaluation Framework</strong>
