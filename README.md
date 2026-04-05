@@ -20,10 +20,6 @@ My current focus is creating AI products that integrate seamlessly into workflow
 A modular <strong>Retrieval-Augmented Generation (RAG) system</strong> designed to simulate real-world AI product architecture — combining search, ranking, observability, caching, and feedback-driven improvement.
 </p>
 
-<p>
-This project demonstrates how LLM systems move beyond simple prompts into <strong>production-style pipelines</strong> with measurable performance and iterative learning.
-</p>
-
 
 <h4>Key Capabilities</h4>
 
@@ -34,10 +30,10 @@ This project demonstrates how LLM systems move beyond simple prompts into <stron
   <li style="margin-bottom: 0; margin-top: 0;"><strong>Reranking Layer</strong>: Improves relevance before generation
   </li>
 
-  <li style="margin-bottom: 0; margin-top: 0;"><strong>LLM Answer Generation</strong>: Context-aware responses using retrieved chunks
+  <li style="margin-bottom: 0; margin-top: 0;"><strong>LLM Answer Generation</strong>: <strong>Context-aware</strong> responses using retrieved <strong>chunks</strong>
   </li>
 
-  <li style="margin-bottom: 0; margin-top: 0;"><strong>Observability & Metrics</strong>: Latency tracking across pipeline stages, Retrieval diagnostics (scores, ranking signals)
+  <li style="margin-bottom: 0; margin-top: 0;"><strong>Observability & Metrics</strong>: <strong>Latency tracking </strong> across pipeline stages, Retrieval diagnostics (scores, ranking signals)
   </li>
 
   <li style="margin-bottom: 0; margin-top: 0;"><strong>Caching Layer</strong>: Reduces repeated query latency (milliseconds vs seconds)
@@ -48,14 +44,6 @@ This project demonstrates how LLM systems move beyond simple prompts into <stron
 
   <li style="margin-bottom: 0; margin-top: 0;"><strong>Evaluation Framework</strong>: Measures answer quality and retrieval performance
   </li>
-</ul>
-
-<h4>The project</h4>
-<ul>
-  <li><strong>measures retrieval quality</strong></li>
-  <li><strong>optimizes latency vs accuracy</strong></li>
-  <li><strong>improves results over time using feedback</strong></li>
-  <li>looks like <strong>production-ready LLM pipeline</strong></li>
 </ul>
 
 
