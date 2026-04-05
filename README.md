@@ -46,22 +46,16 @@ This project demonstrates how LLM systems move beyond simple prompts into <stron
   <li style="margin-bottom: 0; margin-top: 0;"><strong>Feedback Loop</strong>: User ratings influence future ranking decisions
   </li>
 
-  <li style="margin-bottom: 0; margin-top: 0;"><strong>Evaluation Framework</strong>
-    <ul>
-      <li style="margin-bottom: 0; margin-top: 0;">Measures answer quality and retrieval performance</li>
-    </ul>
+  <li style="margin-bottom: 0; margin-top: 0;"><strong>Evaluation Framework</strong>: Measures answer quality and retrieval performance
   </li>
 </ul>
 
-<h4>Why this project matters</h4>
-
-<p>This system is built to answer:</p>
-
+<h4>The project</h4>:
 <ul>
-  <li>How do we <strong>measure retrieval quality</strong>?</li>
-  <li>How do we <strong>optimize latency vs accuracy</strong>?</li>
-  <li>How do we <strong>improve results over time using feedback</strong>?</li>
-  <li>What does a <strong>production-ready LLM pipeline</strong> look like?</li>
+  <li><strong>measures retrieval quality</strong></li>
+  <li><strong>optimizes latency vs accuracy</strong></li>
+  <li><strong>improves results over time using feedback</strong></li>
+  <li>looks like <strong>production-ready LLM pipeline</strong></li>
 </ul>
 
 
