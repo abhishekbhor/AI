@@ -79,8 +79,9 @@ https://github.com/abhishekbhor/rag-assistant
 <a href="https://github.com/abhishekbhor/rag-assistant/blob/main/README.md" target="_blank">
 https://github.com/abhishekbhor/rag-assistant/blob/main/README.md
 </a>
- <li>
+ </li>
 </ul>
+
 </div>
 
 <hr>
