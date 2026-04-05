@@ -1,4 +1,4 @@
-# AI - Product
+# AI - Product Portfolio
 My current focus is creating AI products that integrate seamlessly into workflow ecosystems—LLM agents, intelligent recommendations, automated decisioning, and hybrid human-in-the-loop systems that improve accuracy, reduce friction, and scale safely. I’m particularly interested in opportunities at the intersection of AI systems, platform modernization, and healthcare or mission-critical operations.
 
 ### Education
@@ -63,6 +63,8 @@ Retrieval diagnostics (scores, ranking signals)
 <!-- <hr style="border: none; border-top: 1px dotted grey;">
 
 <br> -->
+<div style="border: 2px solid blue;">
+
 
 <h3>
  <span style="color: #507d2a;">II. Big Data Analysis & Prediction</span>
@@ -103,7 +105,7 @@ Retrieval diagnostics (scores, ranking signals)
 
 <b>4. Data Source</b>
 2022 CDC Annual Survey: Specifically the "Key Indicators of Heart Disease" dataset, which provided the raw data for the 40+ variables analyzed in the study.
-
+</div>
 <br>
 
 <!-- <hr style="border: none; border-top: 1px dotted grey;">
