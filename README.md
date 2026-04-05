@@ -10,7 +10,62 @@ My current focus is creating AI products that integrate seamlessly into workflow
 ## Projects
 
 <h3>
- <span style="color: #507d2a;">I. Big Data Analysis & Prediction</span>
+ <span style="color: #507d2a;">I. RAG Assistant</span>
+ </h3>
+ <h4>A LLM-powered Retrieval System</h4>
+
+<p>A modular Retrieval-Augmented Generation (RAG) system designed to simulate real-world AI product architecture — combining search, ranking, observability, caching, and feedback-driven improvement.</p>
+
+<p>This project demonstrates how LLM systems move beyond simple prompts into production-style pipelines with measurable performance and iterative learning.</p>
+<b>1. Key Capabilities</b>
+- <b>Hybrid Retrieval</b>
+-- Combines semantic search (FAISS) + keyword search (BM25)
+
+- <b>Reranking Layer</b>: Improves relevance before generation
+
+- <b>LLM Answer Generation</b>: Context-aware responses using retrieved chunks
+
+- <b>Observability & Metrics</b>: Latency tracking across pipeline stages, 
+Retrieval diagnostics (scores, ranking signals)
+
+- <b>Caching Layer</b>: Reduces repeated query latency (milliseconds vs seconds)
+
+- <b>Feedback Loop</b>: User ratings influence future ranking decisions
+
+- <b>Evaluation Framework</b>: Measures answer quality and retrieval performance
+
+
+
+<b>2. System is built to answer:</b>
+- How do we measure retrieval quality?
+
+- How do we optimize latency vs accuracy?
+
+- How do we improve results over time using feedback?
+
+- What does a production-ready LLM pipeline look like?
+
+<b>3. System Design Highlights</b>
+- Clear separation of: ingestion pipeline, retrieval pipeline, generation layer
+- Provider abstraction (OpenAI-ready, extensible)
+
+- Modular architecture for scaling and experimentation
+
+- Built with system thinking over scripts
+
+
+<b>4. Project Links</b>
+- Full System (Code + Architecture + Metrics) : <a href="https://github.com/abhishekbhor/rag-assistant">https://github.com/abhishekbhor/rag-assistant</a>
+- System Documentation / Deep Dive : <a href="https://github.com/abhishekbhor/rag-assistant/blob/main/README.md">https://github.com/abhishekbhor/rag-assistant/blob/main/README.md</a>
+
+<br>
+
+<!-- <hr style="border: none; border-top: 1px dotted grey;">
+
+<br> -->
+
+<h3>
+ <span style="color: #507d2a;">II. Big Data Analysis & Prediction</span>
  </h3>
  <h4>Indicators of Heart Disease</h4>
 
@@ -55,7 +110,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 <br> -->
 <h3>
- <span style="color: #507d2a;">II. Multi-Modal Image Synthesis & Semantic Segmentation</span>
+ <span style="color: #507d2a;">III. Multi-Modal Image Synthesis & Semantic Segmentation</span>
 </h3>
  
  <img src="assets/img/comp-vision.png">
