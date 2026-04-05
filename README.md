@@ -1,5 +1,47 @@
+<style>
+.section-card {
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ffffff;
+}
+
+.section-title {
+  margin-top: 0;
+}
+
+.highlight {
+  background-color: #f6f8fa;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.link-box {
+  padding: 12px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  background-color: #f9fafb;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+
+
 # AI - Product Portfolio
-My current focus is creating AI products that integrate seamlessly into workflow ecosystems—LLM agents, intelligent recommendations, automated decisioning, and hybrid human-in-the-loop systems that improve accuracy, reduce friction, and scale safely. I’m particularly interested in opportunities at the intersection of AI systems, platform modernization, and healthcare or mission-critical operations.
+My current focus is creating AI products that integrate seamlessly into workflow ecosystems—LLM agents, intelligent recommendations, automated decisioning, and hybrid human-in-the-loop systems that improve accuracy, reduce friction, and scale safely. I’m particularly interested in opportunities at the intersection of AI systems, platform modernization, and regulated, mission-critical operations.
 
 ### Education
 - M.S., Artificial Intelligence - University of Pennsylvania (Upenn)
@@ -15,14 +57,15 @@ My current focus is creating AI products that integrate seamlessly into workflow
  </h3>
  
 
-
+<div class="section-card">
 <p>
 A modular <strong>Retrieval-Augmented Generation (RAG) system</strong> designed to simulate real-world AI product architecture — combining search, ranking, observability, caching, and feedback-driven improvement.
 </p>
+</div>
 
-
-<h4>Key Capabilities</h4>
-
+<div class="section-card">
+<h4 class="section-title">Key Capabilities</h4>
+  <div class="grid">
 <ul>
   <li style="margin-bottom: 0; margin-top: 0;"><strong>Hybrid Retrieval</strong>: Combines semantic search (FAISS) + keyword search (BM25)
   </li>
@@ -45,7 +88,8 @@ A modular <strong>Retrieval-Augmented Generation (RAG) system</strong> designed 
   <li style="margin-bottom: 0; margin-top: 0;"><strong>Evaluation Framework</strong>: Measures answer quality and retrieval performance
   </li>
 </ul>
-
+</div>
+</div>
 
 <h4>System Design Highlights</h4>
 
@@ -92,7 +136,7 @@ https://github.com/abhishekbhor/rag-assistant/blob/main/README.md
 <br> -->
 
 
-<div style="border: thin solid lightblue; background-color: none; padding: 5px;">
+<div style="border: thin solid lightgray; background-color: none; padding: 5px;">
 <h3>
  <span style="color: #507d2a;">II. Big Data Analysis & Prediction</span>
  </h3>
