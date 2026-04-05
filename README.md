@@ -11,63 +11,129 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 <div style="border: none; background-color: lightblue; padding: 4px;">
 <h3>
- <span style="color: #507d2a;">I. RAG Assistant</span>
+ <span style="color: #507d2a;">I. RAG Assistant (LLM-powered Retrieval System)</span>
  </h3>
- <h4>A LLM-powered Retrieval System</h4>
 </div>
  <div style="border: none; background-color: none; padding: 4px;">
 
-<p>A modular Retrieval-Augmented Generation (RAG) system designed to simulate real-world AI product architecture — combining search, ranking, observability, caching, and feedback-driven improvement.</p>
 
-<p>This project demonstrates how LLM systems move beyond simple prompts into production-style pipelines with measurable performance and iterative learning.</p>
-<b>1. Key Capabilities</b>
-- <b>Hybrid Retrieval</b>
--- Combines semantic search (FAISS) + keyword search (BM25)
+<p>
+A modular <strong>Retrieval-Augmented Generation (RAG) system</strong> designed to simulate real-world AI product architecture — combining search, ranking, observability, caching, and feedback-driven improvement.
+</p>
 
-- <b>Reranking Layer</b>: Improves relevance before generation
+<p>
+This project demonstrates how LLM systems move beyond simple prompts into <strong>production-style pipelines</strong> with measurable performance and iterative learning.
+</p>
 
-- <b>LLM Answer Generation</b>: Context-aware responses using retrieved chunks
+<hr>
 
-- <b>Observability & Metrics</b>: Latency tracking across pipeline stages, 
-Retrieval diagnostics (scores, ranking signals)
+<h3>Key Capabilities</h3>
 
-- <b>Caching Layer</b>: Reduces repeated query latency (milliseconds vs seconds)
+<ul>
+  <li><strong>Hybrid Retrieval</strong>
+    <ul>
+      <li>Combines semantic search (FAISS) + keyword search (BM25)</li>
+    </ul>
+  </li>
 
-- <b>Feedback Loop</b>: User ratings influence future ranking decisions
+  <li><strong>Reranking Layer</strong>
+    <ul>
+      <li>Improves relevance before generation</li>
+    </ul>
+  </li>
 
-- <b>Evaluation Framework</b>: Measures answer quality and retrieval performance
+  <li><strong>LLM Answer Generation</strong>
+    <ul>
+      <li>Context-aware responses using retrieved chunks</li>
+    </ul>
+  </li>
 
+  <li><strong>Observability & Metrics</strong>
+    <ul>
+      <li>Latency tracking across pipeline stages</li>
+      <li>Retrieval diagnostics (scores, ranking signals)</li>
+    </ul>
+  </li>
 
+  <li><strong>Caching Layer</strong>
+    <ul>
+      <li>Reduces repeated query latency (milliseconds vs seconds)</li>
+    </ul>
+  </li>
 
-<b>2. System is built to answer:</b>
-- How do we measure retrieval quality?
+  <li><strong>Feedback Loop</strong>
+    <ul>
+      <li>User ratings influence future ranking decisions</li>
+    </ul>
+  </li>
 
-- How do we optimize latency vs accuracy?
+  <li><strong>Evaluation Framework</strong>
+    <ul>
+      <li>Measures answer quality and retrieval performance</li>
+    </ul>
+  </li>
+</ul>
 
-- How do we improve results over time using feedback?
+<hr>
 
-- What does a production-ready LLM pipeline look like?
+<h3>Why this project matters</h3>
 
-<b>3. System Design Highlights</b>
-- Clear separation of: ingestion pipeline, retrieval pipeline, generation layer
-- Provider abstraction (OpenAI-ready, extensible)
+<p>Most AI demos stop at “it works.” This system is built to answer:</p>
 
-- Modular architecture for scaling and experimentation
+<ul>
+  <li>How do we <strong>measure retrieval quality</strong>?</li>
+  <li>How do we <strong>optimize latency vs accuracy</strong>?</li>
+  <li>How do we <strong>improve results over time using feedback</strong>?</li>
+  <li>What does a <strong>production-ready LLM pipeline</strong> look like?</li>
+</ul>
 
-- Built with system thinking over scripts
+<hr>
 
+<h3>System Design Highlights</h3>
 
-<b>4. Project Links</b>
-- Full System (Code + Architecture + Metrics) : <a href="https://github.com/abhishekbhor/rag-assistant">https://github.com/abhishekbhor/rag-assistant</a>
-- System Documentation / Deep Dive : <a href="https://github.com/abhishekbhor/rag-assistant/blob/main/README.md">https://github.com/abhishekbhor/rag-assistant/blob/main/README.md</a>
+<ul>
+  <li>Clear separation of:
+    <ul>
+      <li>Ingestion pipeline</li>
+      <li>Retrieval pipeline</li>
+      <li>Generation layer</li>
+    </ul>
+  </li>
+  <li>Provider abstraction (OpenAI-ready, extensible)</li>
+  <li>Modular architecture for scaling and experimentation</li>
+  <li>Built with <strong>system thinking over scripts</strong></li>
+</ul>
 
+<hr>
 
-<b>5. Tech Stack</b>
-- Python, FastAPI
-- FAISS (vector search)
-- BM25 (keyword retrieval)
-- OpenAI APIs
-- Custom observability + caching layers
+<h3>Tech Stack</h3>
+
+<ul>
+  <li>Python, FastAPI</li>
+  <li>FAISS (vector search)</li>
+  <li>BM25 (keyword retrieval)</li>
+  <li>OpenAI APIs</li>
+  <li>Custom observability + caching layers</li>
+</ul>
+
+<h3>Project Links</h3>
+
+<p>
+<strong>Full System (Code + Architecture + Metrics):</strong><br>
+<a href="https://github.com/abhishekbhor/rag-assistant" target="_blank">
+https://github.com/abhishekbhor/rag-assistant
+</a>
+</p>
+
+<p>
+<strong>System Documentation / Deep Dive:</strong><br>
+<a href="https://github.com/abhishekbhor/rag-assistant/blob/main/README.md" target="_blank">
+https://github.com/abhishekbhor/rag-assistant/blob/main/README.md
+</a>
+</p>
+
+<hr>
+
 
 
 </div>
