@@ -52,8 +52,8 @@ A modular <strong>Retrieval-Augmented Generation (RAG) system</strong> designed 
 <ul>
   <li>Clear separation of: <strong>Ingestion pipeline</strong>, <strong>Retrieval pipeline</strong>, <strong>Generation layer</strong>  </li>
   <li>Provider abstraction (OpenAI-ready, extensible)</li>
-  <li>Modular architecture for scaling and experimentation</li>
-  <li>Built with <strong>system thinking over scripts</strong></li>
+  <li><strong>Modular architecture</strong> for scaling and experimentation</li>
+  <li>Built with <strong>system thinking</strong> over scripts</li>
 </ul>
 
 
