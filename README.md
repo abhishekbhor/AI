@@ -9,7 +9,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 ## Projects
 
-<div style="border: 2px solid blue;">
+<div style="border: 2px solid blue; background-color: lightblue; padding: 4px;">
 <h3>
  <span style="color: #507d2a;">I. RAG Assistant</span>
  </h3>
