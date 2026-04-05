@@ -9,12 +9,11 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 ## Projects
 
-<div style="border: none; background-color: lightblue; padding: 4px;">
+<div style="border: thin solid lightblue; background-color: none; padding: 5px;">
 <h3>
  <span style="color: #507d2a;">I. RAG Assistant (LLM-powered Retrieval System)</span>
  </h3>
-</div>
- <div style="border: thin solid lightgray; background-color: none; padding: 4px;">
+ 
 
 
 <p>
@@ -78,7 +77,7 @@ This project demonstrates how LLM systems move beyond simple prompts into <stron
 
 <h3>Why this project matters</h3>
 
-<p>Most AI demos stop at “it works.” This system is built to answer:</p>
+<p>This system is built to answer:</p>
 
 <ul>
   <li>How do we <strong>measure retrieval quality</strong>?</li>
@@ -144,7 +143,7 @@ https://github.com/abhishekbhor/rag-assistant/blob/main/README.md
 <br> -->
 
 
-<div style="border: thin solid lightblue; background-color: none; padding: 4px;">
+<div style="border: thin solid lightblue; background-color: none; padding: 5px;">
 <h3>
  <span style="color: #507d2a;">II. Big Data Analysis & Prediction</span>
  </h3>
