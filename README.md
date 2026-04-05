@@ -144,7 +144,7 @@ https://github.com/abhishekbhor/rag-assistant/blob/main/README.md
 <br> -->
 
 
-<div style="border: 2px solid blue;">
+<div style="border: thin solid lightblue; background-color: none; padding: 4px;">
 <h3>
  <span style="color: #507d2a;">II. Big Data Analysis & Prediction</span>
  </h3>
