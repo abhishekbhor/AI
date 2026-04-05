@@ -24,7 +24,6 @@ A modular <strong>Retrieval-Augmented Generation (RAG) system</strong> designed 
 This project demonstrates how LLM systems move beyond simple prompts into <strong>production-style pipelines</strong> with measurable performance and iterative learning.
 </p>
 
-<hr>
 
 <h4>Key Capabilities</h4>
 
