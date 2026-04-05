@@ -62,19 +62,12 @@ This project demonstrates how LLM systems move beyond simple prompts into <stron
 <h4>System Design Highlights</h4>
 
 <ul>
-  <li>Clear separation of:
-    <ul>
-      <li>Ingestion pipeline</li>
-      <li>Retrieval pipeline</li>
-      <li>Generation layer</li>
-    </ul>
-  </li>
+  <li>Clear separation of: <strong>Ingestion pipeline</strong>, <strong>Retrieval pipeline</strong>, <strong>Generation layer</strong>  </li>
   <li>Provider abstraction (OpenAI-ready, extensible)</li>
   <li>Modular architecture for scaling and experimentation</li>
   <li>Built with <strong>system thinking over scripts</strong></li>
 </ul>
 
-<hr>
 
 <h4>Tech Stack</h4>
 
