@@ -26,7 +26,7 @@ This project demonstrates how LLM systems move beyond simple prompts into <stron
 
 <hr>
 
-<h3>Key Capabilities</h3>
+<h4>Key Capabilities</h4>
 
 <ul>
   <li><strong>Hybrid Retrieval</strong>
@@ -73,9 +73,7 @@ This project demonstrates how LLM systems move beyond simple prompts into <stron
   </li>
 </ul>
 
-<hr>
-
-<h3>Why this project matters</h3>
+<h4>Why this project matters</h4>
 
 <p>This system is built to answer:</p>
 
@@ -86,9 +84,8 @@ This project demonstrates how LLM systems move beyond simple prompts into <stron
   <li>What does a <strong>production-ready LLM pipeline</strong> look like?</li>
 </ul>
 
-<hr>
 
-<h3>System Design Highlights</h3>
+<h4>System Design Highlights</h4>
 
 <ul>
   <li>Clear separation of:
@@ -105,7 +102,7 @@ This project demonstrates how LLM systems move beyond simple prompts into <stron
 
 <hr>
 
-<h3>Tech Stack</h3>
+<h4>Tech Stack</h4>
 
 <ul>
   <li>Python, FastAPI</li>
@@ -115,7 +112,7 @@ This project demonstrates how LLM systems move beyond simple prompts into <stron
   <li>Custom observability + caching layers</li>
 </ul>
 
-<h3>Project Links</h3>
+<h4>Project Links</h4>
 
 <p>
 <strong>Full System (Code + Architecture + Metrics):</strong><br>
