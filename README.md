@@ -50,7 +50,7 @@ This project demonstrates how LLM systems move beyond simple prompts into <stron
   </li>
 </ul>
 
-<h4>The project</h4>:
+<h4>The project</h4>
 <ul>
   <li><strong>measures retrieval quality</strong></li>
   <li><strong>optimizes latency vs accuracy</strong></li>
