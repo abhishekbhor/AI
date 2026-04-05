@@ -9,6 +9,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 ## Projects
 
+<div style="border: 2px solid blue;">
 <h3>
  <span style="color: #507d2a;">I. RAG Assistant</span>
  </h3>
@@ -57,15 +58,15 @@ Retrieval diagnostics (scores, ranking signals)
 <b>4. Project Links</b>
 - Full System (Code + Architecture + Metrics) : <a href="https://github.com/abhishekbhor/rag-assistant">https://github.com/abhishekbhor/rag-assistant</a>
 - System Documentation / Deep Dive : <a href="https://github.com/abhishekbhor/rag-assistant/blob/main/README.md">https://github.com/abhishekbhor/rag-assistant/blob/main/README.md</a>
-
+</div>
 <br>
 
 <!-- <hr style="border: none; border-top: 1px dotted grey;">
 
 <br> -->
+
+
 <div style="border: 2px solid blue;">
-
-
 <h3>
  <span style="color: #507d2a;">II. Big Data Analysis & Prediction</span>
  </h3>
