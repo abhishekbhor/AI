@@ -70,10 +70,10 @@ A modular <strong>Retrieval-Augmented Generation (RAG) system</strong> designed 
 <h4>Project Links</h4>
 
 <ul>
-<li><strong>Full System (Code + Architecture + Metrics):</strong><br>
-<a href="https://github.com/abhishekbhor/rag-assistant" target="_blank">
-https://github.com/abhishekbhor/rag-assistant
-</a></ul>li>
+ <li><strong>Full System (Code + Architecture + Metrics):</strong><br>
+  <a href="https://github.com/abhishekbhor/rag-assistant" target="_blank">
+  https://github.com/abhishekbhor/rag-assistant
+ </a></li>
 
 <li><strong>System Documentation / Deep Dive:</strong><br>
 <a href="https://github.com/abhishekbhor/rag-assistant/blob/main/README.md" target="_blank">
