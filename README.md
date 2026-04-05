@@ -14,7 +14,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
  <span style="color: #507d2a;">I. RAG Assistant (LLM-powered Retrieval System)</span>
  </h3>
 </div>
- <div style="border: 1px; color= lightgray; background-color: none; padding: 4px;">
+ <div style="border: thin solid lightgray; background-color: none; padding: 4px;">
 
 
 <p>
