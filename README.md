@@ -58,6 +58,16 @@ Retrieval diagnostics (scores, ranking signals)
 <b>4. Project Links</b>
 - Full System (Code + Architecture + Metrics) : <a href="https://github.com/abhishekbhor/rag-assistant">https://github.com/abhishekbhor/rag-assistant</a>
 - System Documentation / Deep Dive : <a href="https://github.com/abhishekbhor/rag-assistant/blob/main/README.md">https://github.com/abhishekbhor/rag-assistant/blob/main/README.md</a>
+
+
+<b>5. Tech Stack</b>
+- Python, FastAPI
+- FAISS (vector search)
+- BM25 (keyword retrieval)
+- OpenAI APIs
+- Custom observability + caching layers
+
+
 </div>
 <br>
 
