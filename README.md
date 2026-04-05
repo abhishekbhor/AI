@@ -14,7 +14,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
  <span style="color: #507d2a;">I. RAG Assistant</span>
  </h3>
  <h4>A LLM-powered Retrieval System</h4>
-</div>d>
+</div>
  <div style="border: none; border: 2px solid blue; background-color: none; padding: 4px;">
 
 <p>A modular Retrieval-Augmented Generation (RAG) system designed to simulate real-world AI product architecture — combining search, ranking, observability, caching, and feedback-driven improvement.</p>
