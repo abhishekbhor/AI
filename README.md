@@ -291,16 +291,18 @@ My current focus is creating AI products that integrate seamlessly into workflow
   </ul>
 </div>
 
-<div class="section-card">
-  <h3 class="section-title">Why These Choices Mattered</h3>
-
-  <ul>
-    <li><strong>Automatic Mask Detection</strong> was rejected because it segmented every visible object separately, which increased user effort</li>
-    <li><strong>SAM2 Mask Predictor with one click</strong> still required users to choose among multiple mask score options</li>
-    <li><strong>SAM2 + bounding boxes</strong> solved that by letting users deliberately choose the desired object(s)</li>
-    <li><strong>Multiple bounding boxes</strong> enabled the system to create separate masks and combine them into a composite mask</li>
-  </ul>
-</div>
+<!--
+    <div class="section-card">
+      <h3 class="section-title">Why These Choices Mattered</h3>
+    
+      <ul>
+        <li><strong>Automatic Mask Detection</strong> was rejected because it segmented every visible object separately, which increased user effort</li>
+        <li><strong>SAM2 Mask Predictor with one click</strong> still required users to choose among multiple mask score options</li>
+        <li><strong>SAM2 + bounding boxes</strong> solved that by letting users deliberately choose the desired object(s)</li>
+        <li><strong>Multiple bounding boxes</strong> enabled the system to create separate masks and combine them into a composite mask</li>
+      </ul>
+    </div>
+-->
 
 <div class="section-card">
   <h3 class="section-title">Core Technical Insight</h3>
@@ -331,29 +333,31 @@ My current focus is creating AI products that integrate seamlessly into workflow
   </ul>
 </div>
 
-<div class="section-card">
-  <h3 class="section-title">Scenarios & Results</h3>
 
-  <ul>
-    <li>Solid background insertion</li>
-    <li>Solid background with two source objects</li>
-    <li>Classroom setting with partial occlusion</li>
-    <li>Studio setting with foreground objects</li>
-    <li>Office group setting</li>
-  </ul>
-</div>
-
-<div class="section-card">
-  <h3 class="section-title">Why this project matters</h3>
-
-  <ul>
-    <li>Shows how user experience constraints shape technical choices in computer vision systems</li>
-    <li>Demonstrates system thinking across segmentation, interaction design, mask logic, and blending</li>
-    <li>Highlights tradeoffs between automation and controllability</li>
-    <li>Treats image synthesis as a pipeline problem, not just a model problem</li>
-  </ul>
-</div>
-
+<!--
+    <div class="section-card">
+      <h3 class="section-title">Scenarios & Results</h3>
+    
+      <ul>
+        <li>Solid background insertion</li>
+        <li>Solid background with two source objects</li>
+        <li>Classroom setting with partial occlusion</li>
+        <li>Studio setting with foreground objects</li>
+        <li>Office group setting</li>
+      </ul>
+    </div>
+    
+    <div class="section-card">
+      <h3 class="section-title">Why this project matters</h3>
+    
+      <ul>
+        <li>Shows how user experience constraints shape technical choices in computer vision systems</li>
+        <li>Demonstrates system thinking across segmentation, interaction design, mask logic, and blending</li>
+        <li>Highlights tradeoffs between automation and controllability</li>
+        <li>Treats image synthesis as a pipeline problem, not just a model problem</li>
+      </ul>
+    </div>
+-->
 <div class="section-card">
   <h3 class="section-title">Tech Stack</h3>
 
