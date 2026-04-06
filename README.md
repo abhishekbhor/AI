@@ -221,6 +221,185 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 <br>
 <hr>
+<br>
+
+
+<div class="section-card">
+  <h3 class="section-title" style="color:#507d2a;">III. Multi-Modal Image Synthesis</h3>
+  <h4>No Cameraman Left Behind</h4>
+
+  <p>
+    An interactive image synthesis system designed to let a user select a “cameraman” from one image and insert that person into a second scene, while preserving realistic foreground/background relationships. The goal was to make the workflow intuitive enough that the user would not need to manually tune mask geometry or blending parameters. 
+  </p>
+
+  <p>
+    The project explored segmentation, mask composition, and blending strategies to support realistic insertion in everyday scenarios such as family photos, cooking activities, classrooms, studios, and office settings.
+  </p>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Problem & Product Goal</h3>
+
+  <ul>
+    <li>Allow a user to select the cameraman from a complex real-world scene</li>
+    <li>Insert that person into another complex scene with minimal manual effort</li>
+    <li>Preserve object layering so the inserted subject can appear behind foreground objects in the target image</li>
+    <li>Reduce user burden by avoiding low-level mask and configuration tuning</li>
+  </ul>
+
+  <p>
+    Example user scenarios in the slides include family group photos, cooking scenes, and journalists inserting themselves into event imagery. :contentReference[oaicite:1]{index=1}
+  </p>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Solution Workflow</h3>
+
+  <div class="grid">
+    <div>User imports source image<br><small>Person to extract</small></div>
+    <div>User imports target image<br><small>Scene to insert into</small></div>
+    <div>User draws bounding boxes<br><small>Interactive object selection</small></div>
+    <div>System generates composite masks<br><small>Per-object mask combination</small></div>
+    <div>System computes final mask<br><small>Source mask − target mask</small></div>
+    <div>System blends final image<br><small>Preserves occlusion relationships</small></div>
+  </div>
+
+  <p>
+    The workflow diagram in the deck shows a user-guided pipeline: import source and target images, create bounding boxes, generate masks, optionally enlarge masks, compute the final mask, and create the merged image. :contentReference[oaicite:2]{index=2}
+  </p>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Key Capabilities</h3>
+
+  <div class="grid">
+    <div>Interactive Segmentation<br><small>Meta SAM2 mask prediction</small></div>
+    <div>Multi-object Selection<br><small>Bounding-box based selection</small></div>
+    <div>Composite Masking<br><small>Combines multiple selected masks</small></div>
+    <div>Occlusion-aware Insertion<br><small>Places source behind target objects</small></div>
+    <div>Image Blending<br><small>OpenCV interpolation-based blending</small></div>
+    <div>User-friendly Workflow<br><small>Reduced manual parameter tuning</small></div>
+  </div>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Technologies & Design Choices</h3>
+
+  <ul>
+    <li><strong>Meta SAM2</strong> for image segmentation</li>
+    <li><strong>Mask Predictor</strong> was chosen over Automatic Mask Detector because the automatic detector segmented too many objects and forced excessive user choice</li>
+    <li><strong>Bounding-box selection</strong> was preferred because it allowed a user to select multiple objects more intuitively</li>
+    <li><strong>Jupyter BBox Widget</strong> enabled interactive multi-object selection</li>
+    <li><strong>OpenCV linear interpolation</strong> was selected for blending</li>
+  </ul>
+
+  <p>
+    The slides show that alternatives such as Adobe Unihuman, Stable Diffusion inpainting, ChatPose, and <code>cv2.seamlessClone</code> were researched but not adopted due to integration complexity or user-experience issues. :contentReference[oaicite:3]{index=3}
+  </p>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Why These Choices Mattered</h3>
+
+  <ul>
+    <li><strong>Automatic Mask Detection</strong> was rejected because it segmented every visible object separately, which increased user effort</li>
+    <li><strong>SAM2 Mask Predictor with one click</strong> still required users to choose among multiple mask score options</li>
+    <li><strong>SAM2 + bounding boxes</strong> solved that by letting users deliberately choose the desired object(s)</li>
+    <li><strong>Multiple bounding boxes</strong> enabled the system to create separate masks and combine them into a composite mask</li>
+  </ul>
+
+  <p>
+    The slides explicitly show the progression from automatic detection, to click-based prediction, to bounding-box prediction as the most usable design. :contentReference[oaicite:4]{index=4}
+  </p>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Core Technical Insight</h3>
+
+  <p>
+    A central idea in the project was:
+  </p>
+
+  <p>
+    <strong>Final Mask = Source Mask − Target Mask</strong>
+  </p>
+
+  <p>
+    This allowed the inserted source subject to appear behind selected target objects, which was necessary for more realistic compositing. The final mask examples in the slides show the source correctly appearing behind parts of a target person, such as an arm. :contentReference[oaicite:5]{index=5}
+  </p>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Challenges Encountered</h3>
+
+  <ul>
+    <li><strong>Blending with <code>cv2.seamlessClone</code></strong> produced unpredictable positioning because the center was inferred from mask geometry rather than intended image placement</li>
+    <li><strong>Incorrect blending artifacts</strong> included ghosting, excess source background, and darkening of the target or source subject</li>
+    <li><strong>Composite mask tuning</strong> required refinement where source and target masks intersected</li>
+    <li><strong>Mask resizing</strong> caused further issues, so the solution kept original image sizes and only reduced display size for easier box drawing</li>
+    <li><strong>GPU cost</strong> limited exploration of larger SAM2 variants</li>
+    <li><strong>Image quality constraints</strong> came from relying on free stock images with stamps and imperfect resolution</li>
+  </ul>
+
+  <p>
+    These challenges and tradeoffs are covered extensively in the “Image Blending” and “Other challenges” sections of the deck. :contentReference[oaicite:6]{index=6}
+  </p>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Scenarios & Results</h3>
+
+  <ul>
+    <li>Solid background insertion</li>
+    <li>Solid background with two source objects</li>
+    <li>Classroom setting with partial occlusion</li>
+    <li>Studio setting with foreground objects</li>
+    <li>Office group setting</li>
+  </ul>
+
+  <p>
+    The results slides demonstrate that the pipeline worked across multiple scene types and mask configurations, including multi-object selection and target-mask enlargement for improved compositing. :contentReference[oaicite:7]{index=7}
+  </p>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Why this project matters</h3>
+
+  <ul>
+    <li>Shows how user experience constraints shape technical choices in computer vision systems</li>
+    <li>Demonstrates system thinking across segmentation, interaction design, mask logic, and blending</li>
+    <li>Highlights tradeoffs between automation and controllability</li>
+    <li>Treats image synthesis as a pipeline problem, not just a model problem</li>
+  </ul>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Tech Stack</h3>
+
+  <p>
+    <span class="highlight">Python</span>
+    <span class="highlight">Meta SAM2</span>
+    <span class="highlight">Jupyter BBox Widget</span>
+    <span class="highlight">OpenCV</span>
+    <span class="highlight">Google Colab</span>
+  </p>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Project Material</h3>
+
+  <p>
+    <strong>Slides / Demo Deck:</strong><br>
+    <a href="#" onclick="return false;">Slides to support Demo.pdf</a>
+  </p>
+</div>
+
+<br>
+<hr>
+<br>
+
+
+
 
 <h3>
  <span style="color: #507d2a;">III. Multi-Modal Image Synthesis & Semantic Segmentation</span>
