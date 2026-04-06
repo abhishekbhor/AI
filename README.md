@@ -50,46 +50,6 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 ## Projects
-<style>
-.section-card {
-  border: 1px solid #e1e4e8;
-  border-radius: 8px;
-  padding: 20px;
-  margin: 20px 0;
-  background-color: #ffffff;
-}
-
-.section-title {
-  margin-top: 0;
-}
-
-.highlight {
-  background-color: #f6f8fa;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-family: monospace;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-}
-
-.link-box {
-  padding: 12px;
-  border: 1px solid #d0d7de;
-  border-radius: 6px;
-  background-color: #f9fafb;
-}
-
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
-
 
 <h3><span style="color: #507d2a;">I. RAG Assistant (LLM-powered Retrieval System)</span></h3>
 
