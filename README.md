@@ -139,6 +139,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
   </p>
 </div>
 
+<br>
 <hr>
 
 
@@ -218,7 +219,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 
-
+<br>
 <hr>
 
 <h3>
