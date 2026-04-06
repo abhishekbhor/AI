@@ -3,7 +3,7 @@
   border: 1px solid #e1e4e8;
   border-radius: 8px;
   padding: 20px;
-  margin: 10px 0;
+  margin: 20px 0;
   background-color: #ffffff;
 }
 
@@ -47,6 +47,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 - M.S., Artificial Intelligence - University of Pennsylvania (Upenn)
 - M.S., Computer Science - University of Pennsylvania (Upenn)
 
+<br>
 <br>
 
 ## Projects
