@@ -3,7 +3,7 @@
   border: 1px solid #e1e4e8;
   border-radius: 8px;
   padding: 20px;
-  margin: 20px 0;
+  margin: 10px 0;
   background-color: #ffffff;
 }
 
@@ -48,10 +48,10 @@ My current focus is creating AI products that integrate seamlessly into workflow
 - M.S., Computer Science - University of Pennsylvania (Upenn)
 
 <br>
-<br>
+
 
 ## Projects
-
+<br>
 <h3><span style="color: #507d2a;">I. RAG Assistant (LLM-powered Retrieval System)</span></h3>
 
 <div class="section-card">
@@ -213,6 +213,84 @@ https://github.com/abhishekbhor/rag-assistant/blob/main/README.md
 <!-- <hr style="border: none; border-top: 1px dotted grey;">
 
 <br> -->
+
+
+
+
+<div class="section-card">
+  <h3 class="section-title" style="color:#507d2a;">II. Big Data Analysis & Prediction</h3>
+  <h4>Indicators of Heart Disease</h4>
+
+  <a href="https://medium.com/@nkoro/heart-health-education-is-there-something-were-missing-ee41292c7729" target="_blank">
+    <img src="assets/img/heart-health-image.png" alt="Indicators of Heart Disease" class="project-image">
+  </a>
+
+  <p>
+    <a href="https://medium.com/@nkoro/heart-health-education-is-there-something-were-missing-ee41292c7729" target="_blank"><strong>The study</strong></a>
+    used machine learning models such as Random Forest and oversampling techniques like SMOTE to analyze 2022 CDC data and identify the strongest predictors of heart attacks. It found that while age and angina were primary factors, unexpected variables such as dental health also had meaningful predictive value.
+  </p>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Key Capabilities</h3>
+
+  <div class="grid">
+    <div>Data Cleaning & Wrangling<br><small>Pandas + NumPy</small></div>
+    <div>EDA & Visualization<br><small>Matplotlib + Seaborn</small></div>
+    <div>Classification Models<br><small>Logistic Regression, Decision Tree, Random Forest</small></div>
+    <div>Class Imbalance Handling<br><small>SMOTE</small></div>
+    <div>Feature Engineering<br><small>Encoding + feature pruning</small></div>
+    <div>Model Evaluation<br><small>Precision, Recall, F1, ROC/AUC</small></div>
+  </div>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Tools & Libraries</h3>
+
+  <ul>
+    <li><strong>Python</strong> — primary programming language used for analysis and modeling</li>
+    <li><strong>Scikit-learn</strong> — model training, evaluation, and ML pipelines</li>
+    <li><strong>Pandas & NumPy</strong> — cleaning, transformation, and structured analysis</li>
+    <li><strong>Matplotlib & Seaborn</strong> — EDA, correlation plots, and statistical visualization</li>
+  </ul>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Models Evaluated</h3>
+
+  <ul>
+    <li><strong>Logistic Regression</strong> — baseline model</li>
+    <li><strong>Decision Tree Classifier</strong> — improved recall and interpretability</li>
+    <li><strong>Random Forest Classifier</strong> — strongest performer with ~97% accuracy and high AUC</li>
+  </ul>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Data Engineering & Analytics Techniques</h3>
+
+  <ul>
+    <li><strong>SMOTE</strong> — addressed the imbalanced dataset problem by generating synthetic minority samples</li>
+    <li><strong>One-Hot Encoding & Label Encoding</strong> — converted categorical variables into model-ready numerical features</li>
+    <li><strong>Dendrograms / Hierarchical Clustering</strong> — used to identify and remove redundant correlated features</li>
+    <li><strong>Evaluation Metrics</strong> — confusion matrix, recall, precision, F1 score, and ROC/AUC</li>
+  </ul>
+</div>
+
+<div class="section-card">
+  <h3 class="section-title">Data Source</h3>
+
+  <p>
+    <strong>2022 CDC Annual Survey</strong><br>
+    Specifically the <em>Key Indicators of Heart Disease</em> dataset, which provided the raw data across 40+ variables used in the analysis.
+  </p>
+</div>
+
+
+
+
+
+
+
 
 
 <div style="border: thin solid lightgray; background-color: none; padding: 5px;">
