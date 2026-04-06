@@ -91,7 +91,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 </style>
 
 
-<h2>🔧 RAG Assistant (LLM-powered Retrieval System)</h2>
+<h3><span style="color: #507d2a;">I. RAG Assistant (LLM-powered Retrieval System)</span></h3>
 
 <div class="section-card">
   <p>
