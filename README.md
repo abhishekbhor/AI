@@ -56,7 +56,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 <div class="section-card">
-   <h3 class="section-title" style="color:#507d2a;">I. RAG Assistant</h3>
+   <h3 class="section-title" style="color:#507d2a;">Project I. RAG Assistant</h3>
   <h4>A LLM-powered Retrieval System</h4>
   <p>
     A modular <strong>Retrieval-Augmented Generation (RAG) system</strong> designed to simulate real-world AI product architecture — combining search, ranking, observability, caching, and feedback-driven improvement.
@@ -146,7 +146,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 <div class="section-card">
-  <h3 class="section-title" style="color:#507d2a;">II. Big Data Analysis & Prediction</h3>
+  <h3 class="section-title" style="color:#507d2a;">Project II. Big Data Analysis & Prediction</h3>
   <h4>Indicators of Heart Disease</h4>
 
   <a href="https://medium.com/@nkoro/heart-health-education-is-there-something-were-missing-ee41292c7729" target="_blank">
@@ -215,18 +215,20 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 
-
+<!--                                                                -->
 
 
 
 <br>
-<hr>
+<hr style="border: none; border-top: 2px dotted; color:#507d2a; width: 75%; margin: auto; background: none;">
 <br>
 
 
 <div class="section-card">
-  <h3 class="section-title" style="color:#507d2a;">III. Multi-Modal Image Synthesis</h3>
+  <h3 class="section-title" style="color:#507d2a;">Project III. Multi-Modal Image Synthesis</h3>
   <h4>No Cameraman Left Behind</h4>
+
+  <img src="assets/img/comp-vision.png">
 
   <p>
     An interactive image synthesis system designed to let a user select a “cameraman” from one image and insert that person into a second scene, while preserving realistic foreground/background relationships. The goal was to make the workflow intuitive enough that the user would not need to manually tune mask geometry or blending parameters. 
