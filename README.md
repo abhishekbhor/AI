@@ -105,7 +105,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 <div class="section-card">
-  <h3 class="section-title">🚀 Key Capabilities</h3>
+  <h3 class="section-title">Key Capabilities</h3>
 
   <div class="grid">
     <div>Hybrid Retrieval<br><small>FAISS + BM25</small></div>
@@ -119,7 +119,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 <div class="section-card">
-  <h3 class="section-title">🧠 Why this matters</h3>
+  <h3 class="section-title">Why this matters</h3>
 
   <ul>
     <li>Measure <strong>retrieval quality</strong> instead of guessing</li>
@@ -131,7 +131,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 <div class="section-card">
-  <h3 class="section-title">🏗️ System Design</h3>
+  <h3 class="section-title">System Design</h3>
 
   <ul>
     <li>Separate pipelines: ingestion → retrieval → generation</li>
@@ -143,7 +143,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 <div class="section-card">
-  <h3 class="section-title">🔗 Project Links</h3>
+  <h3 class="section-title">Project Links</h3>
 
   <div class="grid">
     <div class="link-box">
@@ -164,7 +164,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 <div class="section-card">
-  <h3 class="section-title">⚙️ Tech Stack</h3>
+  <h3 class="section-title">Tech Stack</h3>
 
   <p>
     <span class="highlight">Python</span>
