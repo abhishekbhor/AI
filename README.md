@@ -56,7 +56,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 <div class="section-card" style= "background-color: #C5CD60;">
-   <!-- <h3 class="section-title" style="color:#507d2a; margin: -10px 0;">Project I. RAG Assistant</h3> -->
+   <!-- <h3 class="section-title" style="color:#507d2a; padding: -10px 0;">Project I. RAG Assistant</h3> -->
   <h3 class="section-title" style="color:#ffffff;">Project I. RAG Assistant</h3>
   <h4>A LLM-powered Retrieval System </h4>
   <a href="https://github.com/abhishekbhor/AI/blob/main/assets/img/rag-architecture.png" target="_blank">
