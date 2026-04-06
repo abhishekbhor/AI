@@ -55,7 +55,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 
-<div class="section-card" style= "background-color: lightgray;">
+<div class="section-card" style= "background-color: #C5CD60;">
    <h3 class="section-title" style="color:#507d2a;">Project I. RAG Assistant</h3>
   <h4>A LLM-powered Retrieval System</h4>
   <a href="https://github.com/abhishekbhor/AI/blob/main/assets/img/rag-architecture.png" target="_blank">
@@ -147,7 +147,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 
-<div class="section-card">
+<div class="section-card" style= "background-color: #C5CD60;">
   <h3 class="section-title" style="color:#507d2a;">Project II. Big Data Analysis & Prediction</h3>
   <h4>Indicators of Heart Disease</h4>
 
@@ -226,7 +226,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 <br>
 
 
-<div class="section-card">
+<div class="section-card" style= "background-color: #C5CD60;">
   <h3 class="section-title" style="color:#507d2a;">Project III. Multi-Modal Image Synthesis</h3>
   <h4>No Cameraman Left Behind</h4>
 
