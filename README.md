@@ -140,7 +140,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 </div>
 
 <br>
-<hr>
+<hr style="border: none; border-top: 3px dotted blue; width: 50%; margin: auto;">
 <br>
 
 
