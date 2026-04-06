@@ -58,7 +58,8 @@ My current focus is creating AI products that integrate seamlessly into workflow
 <div class="section-card">
    <h3 class="section-title" style="color:#507d2a;">Project I. RAG Assistant</h3>
   <h4>A LLM-powered Retrieval System</h4>
-  <img src="assets/img/rag-architecture.png">
+  <a href="https://github.com/abhishekbhor/AI/blob/main/assets/img/rag-architecture.png" target="_blank">
+  <img src="assets/img/rag-architecture.png"></a>
   <p>
     A modular <strong>Retrieval-Augmented Generation (RAG) system</strong> designed to simulate real-world AI product architecture — combining search, ranking, observability, caching, and feedback-driven improvement.
   </p>
