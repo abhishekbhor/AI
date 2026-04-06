@@ -292,49 +292,49 @@ My current focus is creating AI products that integrate seamlessly into workflow
 </div>
 
 <!--
+        <div class="section-card">
+          <h3 class="section-title">Why These Choices Mattered</h3>
+        
+          <ul>
+            <li><strong>Automatic Mask Detection</strong> was rejected because it segmented every visible object separately, which increased user effort</li>
+            <li><strong>SAM2 Mask Predictor with one click</strong> still required users to choose among multiple mask score options</li>
+            <li><strong>SAM2 + bounding boxes</strong> solved that by letting users deliberately choose the desired object(s)</li>
+            <li><strong>Multiple bounding boxes</strong> enabled the system to create separate masks and combine them into a composite mask</li>
+          </ul>
+        </div>
+    
+    
     <div class="section-card">
-      <h3 class="section-title">Why These Choices Mattered</h3>
+      <h3 class="section-title">Core Technical Insight</h3>
+    
+      <p>
+        A central idea in the project was:
+      </p>
+    
+      <p>
+        <strong>Final Mask = Source Mask − Target Mask</strong>
+      </p>
+    
+      <p>
+        This allowed the inserted source subject to appear behind selected target objects, which was necessary for more realistic compositing. 
+      </p>
+    </div>
+    
+    <div class="section-card">
+      <h3 class="section-title">Challenges Encountered</h3>
     
       <ul>
-        <li><strong>Automatic Mask Detection</strong> was rejected because it segmented every visible object separately, which increased user effort</li>
-        <li><strong>SAM2 Mask Predictor with one click</strong> still required users to choose among multiple mask score options</li>
-        <li><strong>SAM2 + bounding boxes</strong> solved that by letting users deliberately choose the desired object(s)</li>
-        <li><strong>Multiple bounding boxes</strong> enabled the system to create separate masks and combine them into a composite mask</li>
+        <li><strong>Blending with <code>cv2.seamlessClone</code></strong> produced unpredictable positioning because the center was inferred from mask geometry rather than intended image placement</li>
+        <li><strong>Incorrect blending artifacts</strong> included ghosting, excess source background, and darkening of the target or source subject</li>
+        <li><strong>Composite mask tuning</strong> required refinement where source and target masks intersected</li>
+        <li><strong>Mask resizing</strong> caused further issues, so the solution kept original image sizes and only reduced display size for easier box drawing</li>
+        <li><strong>GPU cost</strong> limited exploration of larger SAM2 variants</li>
+        <li><strong>Image quality constraints</strong> came from relying on free stock images with stamps and imperfect resolution</li>
       </ul>
     </div>
--->
-
-<div class="section-card">
-  <h3 class="section-title">Core Technical Insight</h3>
-
-  <p>
-    A central idea in the project was:
-  </p>
-
-  <p>
-    <strong>Final Mask = Source Mask − Target Mask</strong>
-  </p>
-
-  <p>
-    This allowed the inserted source subject to appear behind selected target objects, which was necessary for more realistic compositing. 
-  </p>
-</div>
-
-<div class="section-card">
-  <h3 class="section-title">Challenges Encountered</h3>
-
-  <ul>
-    <li><strong>Blending with <code>cv2.seamlessClone</code></strong> produced unpredictable positioning because the center was inferred from mask geometry rather than intended image placement</li>
-    <li><strong>Incorrect blending artifacts</strong> included ghosting, excess source background, and darkening of the target or source subject</li>
-    <li><strong>Composite mask tuning</strong> required refinement where source and target masks intersected</li>
-    <li><strong>Mask resizing</strong> caused further issues, so the solution kept original image sizes and only reduced display size for easier box drawing</li>
-    <li><strong>GPU cost</strong> limited exploration of larger SAM2 variants</li>
-    <li><strong>Image quality constraints</strong> came from relying on free stock images with stamps and imperfect resolution</li>
-  </ul>
-</div>
 
 
-<!--
+
     <div class="section-card">
       <h3 class="section-title">Scenarios & Results</h3>
     
