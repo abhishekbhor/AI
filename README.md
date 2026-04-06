@@ -50,22 +50,142 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 ## Projects
+<style>
+.section-card {
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ffffff;
+}
 
-<div style="border: thin solid lightgray; background-color: none; padding: 10px 5px 10px;">
+.section-title {
+  margin-top: 0;
+}
+
+.highlight {
+  background-color: #f6f8fa;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.link-box {
+  padding: 12px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  background-color: #f9fafb;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+
+<h2>🔧 RAG Assistant (LLM-powered Retrieval System)</h2>
+
+<div class="section-card">
+  <p>
+    A modular <strong>Retrieval-Augmented Generation (RAG) system</strong> designed to simulate real-world AI product architecture — combining search, ranking, observability, caching, and feedback-driven improvement.
+  </p>
+
+  <p>
+    This project demonstrates how LLM systems evolve into <strong>production-style pipelines</strong> with measurable performance and iterative learning.
+  </p>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">🚀 Key Capabilities</h3>
+
+  <div class="grid">
+    <div>Hybrid Retrieval<br><small>FAISS + BM25</small></div>
+    <div>Reranking Layer<br><small>Improved relevance</small></div>
+    <div>LLM Generation<br><small>Context-aware answers</small></div>
+    <div>Observability<br><small>Latency + diagnostics</small></div>
+    <div>Caching<br><small>Fast repeat queries</small></div>
+    <div>Feedback Loop<br><small>Ranking improvement</small></div>
+  </div>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">🧠 Why this matters</h3>
+
+  <ul>
+    <li>Measure <strong>retrieval quality</strong> instead of guessing</li>
+    <li>Balance <strong>latency vs accuracy</strong></li>
+    <li>Improve results via <strong>user feedback</strong></li>
+    <li>Design <strong>production-ready LLM systems</strong></li>
+  </ul>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">🏗️ System Design</h3>
+
+  <ul>
+    <li>Separate pipelines: ingestion → retrieval → generation</li>
+    <li>Provider abstraction (extensible)</li>
+    <li>Modular, scalable architecture</li>
+    <li>Built with <strong>system thinking</strong></li>
+  </ul>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">🔗 Project Links</h3>
+
+  <div class="grid">
+    <div class="link-box">
+      <strong>Full System</strong><br>
+      <a href="https://github.com/abhishekbhor/rag-assistant" target="_blank">
+        View Repository
+      </a>
+    </div>
+
+    <div class="link-box">
+      <strong>Deep Dive</strong><br>
+      <a href="https://github.com/abhishekbhor/rag-assistant/blob/main/README.md" target="_blank">
+        System Documentation
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">⚙️ Tech Stack</h3>
+
+  <p>
+    <span class="highlight">Python</span>
+    <span class="highlight">FastAPI</span>
+    <span class="highlight">FAISS</span>
+    <span class="highlight">BM25</span>
+    <span class="highlight">OpenAI</span>
+  </p>
+</div>
+
+<div class="section-card">
+<!-- <div style="border: thin solid lightgray; background-color: none; padding: 10px 5px 10px;"> -->
 <h3>
  <span style="color: #507d2a;">I. RAG Assistant (LLM-powered Retrieval System)</span>
  </h3>
  
-
-<div class="section-card">
 <p>
 A modular <strong>Retrieval-Augmented Generation (RAG) system</strong> designed to simulate real-world AI product architecture — combining search, ranking, observability, caching, and feedback-driven improvement.
 </p>
-</div>
 
-<div class="section-card">
 <h4 class="section-title">Key Capabilities</h4>
-  <div class="grid">
 <ul>
   <li style="margin-bottom: 0; margin-top: 0;"><strong>Hybrid Retrieval</strong>: Combines semantic search (FAISS) + keyword search (BM25)
   </li>
@@ -88,8 +208,6 @@ A modular <strong>Retrieval-Augmented Generation (RAG) system</strong> designed 
   <li style="margin-bottom: 0; margin-top: 0;"><strong>Evaluation Framework</strong>: Measures answer quality and retrieval performance
   </li>
 </ul>
-</div>
-</div>
 
 <h4>System Design Highlights</h4>
 
