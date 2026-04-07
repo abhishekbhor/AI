@@ -19,7 +19,7 @@
 .sub-title {
   margin-top: 0;
   <!-- color:#507d2a; -->
-  color: #1D4C00;
+  color: #17324D;
   font-weight: 400;
   font-size: 0.95rem;
   opacity: 0.85;
@@ -70,7 +70,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 <!---------------------------------------Project 1--------------------------------------------------------->
-<div class="section-card" style= "background-color: #C5CD60;">
+<div class="section-card" style= "background-color: #8FAADC;">
    <!-- <h3 class="section-title" style="color:#507d2a; padding: -10px 0;">Project I. RAG Assistant</h3> -->
   <h3 class="main-title">Project I. RAG Assistant</h3>
   <h4 class="sub-title">A LLM-powered Retrieval System </h4>
@@ -162,12 +162,12 @@ My current focus is creating AI products that integrate seamlessly into workflow
 <br>
 
 <!---------------------------------------Project 2--------------------------------------------------------->
-<div class="section-card" style= "background-color: #C5CD60;">
+<div class="section-card" style= "background-color: #8FAADC;">
   <h3 class="main-title">Project II. AI Product Copilot</h3>
-  <h4 class="sub-title" style="color:#17324D;">A Decision-Intelligence System for Product Teams</h4>
+  <h4 class="sub-title">A Decision-Intelligence System for Product Teams</h4>
 
-  <a href="https://github.com/abhishekbhor/AI-copilot/blob/main/assets/img/copilot-architecture.png" target="_blank">
-    <img src="assets/img/architecture-diagram.png" alt="AI Product Copilot Architecture">
+  <a href="https://github.com/abhishekbhor/AI/blob/main/assets/img/copilot-architecture.png" target="_blank">
+    <img src="assets/img/copilot-architecture.png" alt="AI Product Copilot Architecture">
   </a>
 
   <p style="color:#ffffff;">
@@ -261,7 +261,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 <!---------------------------------------Project 3--------------------------------------------------------->
 
-<div class="section-card" style="background-color: #C5CD60;">
+<div class="section-card" style="background-color: #8FAADC;">
   <h3 class="main-title">Project III. AI Research Agent</h3>
   <h4 class="sub-title">An Agentic Research & Analysis System</h4>
 
@@ -378,7 +378,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 <!---------------------------------------Project 4--------------------------------------------------------->
 
 
-<div class="section-card" style="background-color: #C5CD60;">
+<div class="section-card" style="background-color: #8FAADC;">
   <h3 class="main-title">Project IV. Observability AI Assistant</h3>
   <img src="assets/img/observe-architecture.png">
 
@@ -489,7 +489,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 <!---------------------------------------Project 5--------------------------------------------------------->
 
-<div class="section-card" style= "background-color: #C5CD60;">
+<div class="section-card" style= "background-color: #8FAADC;">
   <!-- <h3 class="section-title" style="color:#507d2a;">Project V. Big Data Analysis & Prediction</h3> -->
   <h3 class="main-title">Project V. Big Data Analysis & Prediction</h3>
   <h4 class="sub-title">Indicators of Heart Disease</h4>
@@ -570,7 +570,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 <!---------------------------------------Project 6--------------------------------------------------------->
 
-<div class="section-card" style= "background-color: #C5CD60;">
+<div class="section-card" style= "background-color: #8FAADC;">
   <!-- <h3 class="section-title" style="color:#507d2a;">Project VI. Multi-Modal Image Synthesis</h3> -->
   <h3 class="main-title">Project VI. Multi-Modal Image Synthesis</h3>
   <h4 class="sub-title">No Cameraman Left Behind</h4>
