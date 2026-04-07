@@ -162,11 +162,11 @@ My current focus is creating AI products that integrate seamlessly into workflow
 <br>
 
 <!---------------------------------------Project 2--------------------------------------------------------->
-<div class="section-card" style="background-color: #8FAADC;">
+<div class="section-card" style= "background-color: #C5CD60;">
   <h3 class="main-title">Project II. AI Product Copilot</h3>
   <h4 class="sub-title" style="color:#17324D;">A Decision-Intelligence System for Product Teams</h4>
 
-  <a href="https://github.com/abhishekbhor/AI-copilot/blob/main/assets/img/architecture-diagram.png" target="_blank">
+  <a href="https://github.com/abhishekbhor/AI-copilot/blob/main/assets/img/copilot-architecture.png" target="_blank">
     <img src="assets/img/architecture-diagram.png" alt="AI Product Copilot Architecture">
   </a>
 
