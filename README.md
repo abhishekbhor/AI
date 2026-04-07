@@ -146,10 +146,127 @@ My current focus is creating AI products that integrate seamlessly into workflow
 <!-- <hr style="border: none; border-top: 2px dotted; color:#507d2a; width: 75%; margin: auto; background: none;"> -->
 <br>
 
+<!---------------------------------------Project 2--------------------------------------------------------->
+
+<div class="section-card" style="background-color: #C5CD60;">
+  <h3 class="section-title" style="color:#ffffff;">Project II. AI Research Agent</h3>
+  <h4 style="color:#ffffff;">An Agentic Research & Analysis System</h4>
+
+  <!-- Optional: Add your architecture diagram -->
+  <!--
+  <a href="https://github.com/abhishekbhor/AI/blob/main/assets/img/research-agent-architecture.png" target="_blank">
+    <img src="assets/img/research-agent-architecture.png">
+  </a>
+  -->
+
+  <p style="color:#ffffff;">
+    A modular <strong>AI Research Agent</strong> that transforms a high-level business goal into a
+    structured research workflow — producing both a <strong>comparison spreadsheet</strong> and a
+    <strong>detailed report</strong>.
+  </p>
+
+  <p style="color:#ffffff;">
+    This project demonstrates how LLM systems evolve into <strong>agentic pipelines</strong> that
+    plan, execute, and synthesize insights into decision-ready outputs.
+  </p>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">Key Capabilities</h3>
+
+  <div class="grid">
+    <div>Research Planning<br><small>Goal → structured questions</small></div>
+    <div>Agentic Execution<br><small>Step-by-step workflow</small></div>
+    <div>Structured Outputs<br><small>Spreadsheet + report</small></div>
+    <div>Comparative Analysis<br><small>Vendor / market insights</small></div>
+    <div>API Interface<br><small>FastAPI endpoint</small></div>
+    <div>Feedback Loop<br><small>Continuous improvement</small></div>
+  </div>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">Why this matters</h3>
+
+  <ul>
+    <li>Convert vague questions into <strong>actionable research plans</strong></li>
+    <li>Deliver <strong>decision-ready outputs</strong>, not raw LLM responses</li>
+    <li>Bridge <strong>AI capability with product thinking</strong></li>
+    <li>Enable <strong>repeatable and scalable research workflows</strong></li>
+  </ul>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">System Design</h3>
+
+  <ul>
+    <li>Planning → execution → synthesis pipeline</li>
+    <li>Clear separation of concerns across components</li>
+    <li>Outputs designed for <strong>business consumption</strong></li>
+    <li>Built with <strong>modularity and extensibility</strong></li>
+  </ul>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">Example Use Case</h3>
+
+  <p>
+    <span class="highlight">Analyze top observability platforms for enterprise engineering teams</span>
+  </p>
+
+  <ul>
+    <li>Generates structured research questions</li>
+    <li>Compares tools across features, pricing, and usability</li>
+    <li>Outputs a <strong>comparison spreadsheet</strong> and <strong>report</strong></li>
+  </ul>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">Project Links</h3>
+
+  <div class="grid">
+    <div class="link-box">
+      <strong>Full System</strong><br>
+      <a href="https://github.com/abhishekbhor/AI-Research-Agent" target="_blank">
+        View Repository
+      </a>
+    </div>
+
+    <div class="link-box">
+      <strong>Deep Dive</strong><br>
+      <a href="https://github.com/abhishekbhor/AI-Research-Agent/blob/main/README.md" target="_blank">
+        System Documentation
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">Tech Stack</h3>
+
+  <p>
+    <span class="highlight">Python</span>
+    <span class="highlight">FastAPI</span>
+    <span class="highlight">LLMs</span>
+    <span class="highlight">Agentic Workflows</span>
+    <span class="highlight">Markdown</span>
+    <span class="highlight">Excel</span>
+  </p>
+</div>
+
+<br>
+<br>
+
+<!---------------------------------------Project 3--------------------------------------------------------->
 
 
 <div class="section-card" style= "background-color: #C5CD60;">
-  <!-- <h3 class="section-title" style="color:#507d2a;">Project II. Big Data Analysis & Prediction</h3> -->
+  <!-- <h3 class="section-title" style="color:#507d2a;">Project III. Big Data Analysis & Prediction</h3> -->
   <h3 class="section-title" style="color:#ffffff;">Project II. Big Data Analysis & Prediction</h3>
   <h4>Indicators of Heart Disease</h4>
 
@@ -227,9 +344,10 @@ My current focus is creating AI products that integrate seamlessly into workflow
 <!-- <hr style="border: none; border-top: 2px dotted; color:#507d2a; width: 75%; margin: auto; background: none;"> -->
 <br>
 
+<!---------------------------------------Project 4--------------------------------------------------------->
 
 <div class="section-card" style= "background-color: #C5CD60;">
-  <!-- <h3 class="section-title" style="color:#507d2a;">Project III. Multi-Modal Image Synthesis</h3> -->
+  <!-- <h3 class="section-title" style="color:#507d2a;">Project IV. Multi-Modal Image Synthesis</h3> -->
   <h3 class="section-title" style="color:#ffffff;">Project III. Multi-Modal Image Synthesis</h3>
   <h4>No Cameraman Left Behind</h4>
 
