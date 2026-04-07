@@ -153,11 +153,11 @@ My current focus is creating AI products that integrate seamlessly into workflow
   <h4 style="color:#ffffff;">An Agentic Research & Analysis System</h4>
 
   <!-- Optional: Add your architecture diagram -->
-  <!--
-  <a href="https://github.com/abhishekbhor/AI/blob/main/assets/img/research-agent-architecture.png" target="_blank">
-    <img src="assets/img/research-agent-architecture.png">
+
+  <a href="https://github.com/abhishekbhor/AI/blob/main/assets/img/agent-architecture.png" target="_blank">
+    <img src="assets/img/agent-architecture.png">
   </a>
-  -->
+
 
   <p style="color:#ffffff;">
     A modular <strong>AI Research Agent</strong> that transforms a high-level business goal into a
