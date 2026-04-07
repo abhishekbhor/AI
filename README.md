@@ -290,7 +290,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
   <p  style="color:#ffffff;">
     <a href="https://medium.com/@nkoro/heart-health-education-is-there-something-were-missing-ee41292c7729" target="_blank"><strong>The study</strong></a>
-    used machine learning models such as <strong>Random Forest</strong> and <strong>oversampling techniques like SMOTE</strong> to analyze 2022 CDC data and identify the strongest predictors of heart attacks. It found that while age and angina were primary factors, unexpected variables such as dental health also had meaningful predictive value.
+    used <stron>machine learning models</stron> such as <strong>Random Forest</strong> and <strong>oversampling techniques like SMOTE</strong> to analyze 2022 CDC data and identify the strongest predictors of heart attacks. It found that while age and angina were primary factors, unexpected variables such as dental health also had meaningful predictive value.
   </p>
 </div>
 
@@ -368,7 +368,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
   <img src="assets/img/comp-vision.png">
 
   <p  style="color:#ffffff;">
-    An interactive image synthesis system designed to let a user select a “cameraman” from one image and insert that person into a second scene, while preserving realistic foreground/background relationships. The goal was to make the workflow intuitive enough that the user would not need to manually tune mask geometry or blending parameters. 
+    An <strong>interactive image synthesis system</strong> designed to let a user select a “cameraman” from one image and insert that person into a second scene, while preserving realistic foreground/background relationships. The goal was to make the workflow intuitive enough that the user would not need to manually <strong>tune mask geometry</strong> or <strong>blending</strong> parameters. 
   </p>
 
   <p  style="color:#ffffff;">
