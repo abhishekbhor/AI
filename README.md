@@ -368,7 +368,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
   <img src="assets/img/comp-vision.png">
 
   <p  style="color:#ffffff;">
-    An <strong>interactive image synthesis system</strong> designed to let a user select a “cameraman” from one image and insert that person into a second scene, while preserving realistic foreground/background relationships. The goal was to make the workflow intuitive enough that the user would not need to manually <strong>tune mask geometry</strong> or <strong>blending</strong> parameters. 
+    An <strong>interactive image synthesis system</strong> designed to let a user select a “cameraman” from one image and insert that person into a second scene, while <strong>preserving realistic foreground/background relationships</strong>. The goal was to make the workflow intuitive enough that the user would not need to manually <strong>tune mask geometry</strong> or <strong>blending</strong> parameters. 
   </p>
 
   <p  style="color:#ffffff;">
