@@ -11,6 +11,18 @@
   margin-top: 0;
 }
 
+.main-title {
+  margin-bottom: 4px;
+}
+
+.sub-title {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 0.95rem;
+  opacity: 0.85;
+  letter-spacing: 0.4px;
+}
+
 .highlight {
   background-color: #f6f8fa;
   padding: 2px 6px;
@@ -57,8 +69,8 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 <div class="section-card" style= "background-color: #C5CD60;">
    <!-- <h3 class="section-title" style="color:#507d2a; padding: -10px 0;">Project I. RAG Assistant</h3> -->
-  <h3 class="section-title" style="color:#ffffff;">Project I. RAG Assistant</h3>
-  <h4>A LLM-powered Retrieval System </h4>
+  <h3 class="main-title" style="color:#ffffff;">Project I. RAG Assistant</h3>
+  <h4 class="sub-title">A LLM-powered Retrieval System </h4>
   <a href="https://github.com/abhishekbhor/AI/blob/main/assets/img/rag-architecture.png" target="_blank">
   <img src="assets/img/rag-architecture.png"></a>
   <p  style="color:#ffffff;">
@@ -149,8 +161,8 @@ My current focus is creating AI products that integrate seamlessly into workflow
 <!---------------------------------------Project 2--------------------------------------------------------->
 
 <div class="section-card" style="background-color: #C5CD60;">
-  <h3 class="section-title" style="color:#ffffff;">Project II. AI Research Agent</h3>
-  <h4 style="color:#ffffff;">An Agentic Research & Analysis System</h4>
+  <h3 class="main-title" style="color:#ffffff;">Project II. AI Research Agent</h3>
+  <h4 class="sub-title" style="color:#ffffff;">An Agentic Research & Analysis System</h4>
 
   <!-- Optional: Add your architecture diagram -->
 
@@ -267,8 +279,8 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 <div class="section-card" style= "background-color: #C5CD60;">
   <!-- <h3 class="section-title" style="color:#507d2a;">Project III. Big Data Analysis & Prediction</h3> -->
-  <h3 class="section-title" style="color:#ffffff;">Project III. Big Data Analysis & Prediction</h3>
-  <h4>Indicators of Heart Disease</h4>
+  <h3 class="main-title" style="color:#ffffff;">Project III. Big Data Analysis & Prediction</h3>
+  <h4 class="sub-title">Indicators of Heart Disease</h4>
 
   <a href="https://medium.com/@nkoro/heart-health-education-is-there-something-were-missing-ee41292c7729" target="_blank">
     <img src="assets/img/heart-health-image.png" alt="Indicators of Heart Disease" class="project-image">
@@ -348,8 +360,8 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 <div class="section-card" style= "background-color: #C5CD60;">
   <!-- <h3 class="section-title" style="color:#507d2a;">Project IV. Multi-Modal Image Synthesis</h3> -->
-  <h3 class="section-title" style="color:#ffffff;">Project IV. Multi-Modal Image Synthesis</h3>
-  <h4>No Cameraman Left Behind</h4>
+  <h3 class="main-title" style="color:#ffffff;">Project IV. Multi-Modal Image Synthesis</h3>
+  <h4 class="sub-title">No Cameraman Left Behind</h4>
 
   <img src="assets/img/comp-vision.png">
 
