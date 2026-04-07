@@ -76,7 +76,7 @@ My current focus is creating AI products that integrate seamlessly into workflow
   <a href="https://github.com/abhishekbhor/AI/blob/main/assets/img/rag-architecture.png" target="_blank">
   <img src="assets/img/rag-architecture.png"></a>
   <p  style="color:#ffffff;">
-    A modular <strong>Retrieval-Augmented Generation (RAG) system</strong> designed to simulate real-world AI product architecture — combining search, ranking, observability, caching, and feedback-driven improvement.
+    A modular <strong>Retrieval-Augmented Generation (RAG) system</strong> designed to simulate real-world AI product architecture — combining <strong>search</strong>, <strong>ranking</strong>, <strong>observability</strong>, <strong>caching</strong>, and <strong>feedback-driven</strong> improvement.
   </p>
 
   <p  style="color:#ffffff;">
