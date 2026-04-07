@@ -281,8 +281,8 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 
 <div class="section-card" style="background-color: #C5CD60;">
-  <h3 class="main-title">Project V. Observability AI Assistant</h3>
-  <img src="assets/img/observability-ai-architecture.png">
+  <h3 class="main-title">Project III. Observability AI Assistant</h3>
+  <img src="assets/img/observe-architecture.png">
 
   <p style="color:#ffffff;">
     An <strong>AI-powered observability assistant</strong> that analyzes
