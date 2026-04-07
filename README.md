@@ -61,11 +61,11 @@ My current focus is creating AI products that integrate seamlessly into workflow
   <h4>A LLM-powered Retrieval System </h4>
   <a href="https://github.com/abhishekbhor/AI/blob/main/assets/img/rag-architecture.png" target="_blank">
   <img src="assets/img/rag-architecture.png"></a>
-  <p>
+  <p  style="color:#ffffff;">
     A modular <strong>Retrieval-Augmented Generation (RAG) system</strong> designed to simulate real-world AI product architecture — combining search, ranking, observability, caching, and feedback-driven improvement.
   </p>
 
-  <p>
+  <p  style="color:#ffffff;">
     This project demonstrates how LLM systems evolve into <strong>production-style pipelines</strong> with measurable performance and iterative learning.
   </p>
 </div>
@@ -267,16 +267,16 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 <div class="section-card" style= "background-color: #C5CD60;">
   <!-- <h3 class="section-title" style="color:#507d2a;">Project III. Big Data Analysis & Prediction</h3> -->
-  <h3 class="section-title" style="color:#ffffff;">Project II. Big Data Analysis & Prediction</h3>
+  <h3 class="section-title" style="color:#ffffff;">Project III. Big Data Analysis & Prediction</h3>
   <h4>Indicators of Heart Disease</h4>
 
   <a href="https://medium.com/@nkoro/heart-health-education-is-there-something-were-missing-ee41292c7729" target="_blank">
     <img src="assets/img/heart-health-image.png" alt="Indicators of Heart Disease" class="project-image">
   </a>
 
-  <p>
+  <p  style="color:#ffffff;">
     <a href="https://medium.com/@nkoro/heart-health-education-is-there-something-were-missing-ee41292c7729" target="_blank"><strong>The study</strong></a>
-    used machine learning models such as Random Forest and oversampling techniques like SMOTE to analyze 2022 CDC data and identify the strongest predictors of heart attacks. It found that while age and angina were primary factors, unexpected variables such as dental health also had meaningful predictive value.
+    used machine learning models such as <strong>Random Forest</strong> and <strong>oversampling techniques like SMOTE</strong> to analyze 2022 CDC data and identify the strongest predictors of heart attacks. It found that while age and angina were primary factors, unexpected variables such as dental health also had meaningful predictive value.
   </p>
 </div>
 
@@ -348,17 +348,17 @@ My current focus is creating AI products that integrate seamlessly into workflow
 
 <div class="section-card" style= "background-color: #C5CD60;">
   <!-- <h3 class="section-title" style="color:#507d2a;">Project IV. Multi-Modal Image Synthesis</h3> -->
-  <h3 class="section-title" style="color:#ffffff;">Project III. Multi-Modal Image Synthesis</h3>
+  <h3 class="section-title" style="color:#ffffff;">Project IV. Multi-Modal Image Synthesis</h3>
   <h4>No Cameraman Left Behind</h4>
 
   <img src="assets/img/comp-vision.png">
 
-  <p>
+  <p  style="color:#ffffff;">
     An interactive image synthesis system designed to let a user select a “cameraman” from one image and insert that person into a second scene, while preserving realistic foreground/background relationships. The goal was to make the workflow intuitive enough that the user would not need to manually tune mask geometry or blending parameters. 
   </p>
 
-  <p>
-    The project explored segmentation, mask composition, and blending strategies to support realistic insertion in everyday scenarios such as family photos, cooking activities, classrooms, studios, and office settings.
+  <p  style="color:#ffffff;">
+    The project <strong> explored segmentation</strong>, <strong>mask composition</strong>, and <strong>blending strategies</strong> to support realistic insertion in everyday scenarios such as family photos, cooking activities, classrooms, studios, and office settings.
   </p>
 </div>
 
