@@ -280,9 +280,120 @@ My current focus is creating AI products that integrate seamlessly into workflow
 <!---------------------------------------Project 3--------------------------------------------------------->
 
 
+<div class="section-card" style="background-color: #C5CD60;">
+  <h3 class="main-title">Project V. Observability AI Assistant</h3>
+  <img src="assets/img/observability-ai-architecture.png">
+
+  <p style="color:#ffffff;">
+    An <strong>AI-powered observability assistant</strong> that analyzes
+    <strong>logs, metrics, and traces</strong> to identify likely root causes behind
+    service failures and accelerate incident investigation.
+  </p>
+
+  <p style="color:#ffffff;">
+    This project demonstrates how LLM systems can support
+    <strong>incident triage workflows</strong> by turning raw telemetry into
+    <strong>structured, decision-ready operational insights</strong>.
+  </p>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">Key Capabilities</h3>
+
+  <div class="grid">
+    <div>Log Analysis<br><small>Error pattern detection</small></div>
+    <div>Metric Correlation<br><small>Service health signals</small></div>
+    <div>Trace Inspection<br><small>Dependency path failures</small></div>
+    <div>Root Cause Summarization<br><small>Ranked investigation output</small></div>
+    <div>Cross-Signal Reasoning<br><small>Logs + metrics + traces</small></div>
+    <div>Structured Evidence<br><small>Human-reviewable findings</small></div>
+  </div>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">Why this matters</h3>
+
+  <ul>
+    <li>Reduce manual effort during <strong>incident investigation</strong></li>
+    <li>Connect noisy telemetry into a <strong>coherent failure narrative</strong></li>
+    <li>Demonstrate AI applied to <strong>real engineering workflow problems</strong></li>
+    <li>Bridge <strong>AI capability with platform and product thinking</strong></li>
+  </ul>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">System Design</h3>
+
+  <ul>
+    <li>Separate analysis of logs, metrics, and traces</li>
+    <li>Correlation layer across <strong>services and dependencies</strong></li>
+    <li>Root-cause reasoning pipeline with <strong>evidence ranking</strong></li>
+    <li>Outputs designed for <strong>incident review and decision support</strong></li>
+  </ul>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">Example Use Case</h3>
+
+  <p>
+    <span class="highlight">Why is the payments service failing?</span>
+  </p>
+
+  <ul>
+    <li>Highlights recurring <strong>database connection timeout</strong> errors</li>
+    <li>Connects application failure with downstream <strong>postgres dependency</strong> issues</li>
+    <li>Surfaces the strongest evidence from <strong>traces, logs, and service metrics</strong></li>
+  </ul>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">Project Links</h3>
+
+  <div class="grid">
+    <div class="link-box">
+      <strong>Full System</strong><br>
+      <a href="https://github.com/abhishekbhor/Observability-AI-Assistant" target="_blank">
+        View Repository
+      </a>
+    </div>
+
+    <div class="link-box">
+      <strong>Deep Dive</strong><br>
+      <a href="https://github.com/abhishekbhor/Observability-AI-Assistant/blob/main/README.md" target="_blank">
+        System Documentation
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">Tech Stack</h3>
+
+  <p>
+    <span class="highlight">Python</span>
+    <span class="highlight">FastAPI</span>
+    <span class="highlight">Observability</span>
+    <span class="highlight">Logs</span>
+    <span class="highlight">Metrics</span>
+    <span class="highlight">Traces</span>
+    <span class="highlight">JSON</span>
+  </p>
+</div>
+
+<br>
+<br>
+
+<!---------------------------------------Project 4--------------------------------------------------------->
+
 <div class="section-card" style= "background-color: #C5CD60;">
-  <!-- <h3 class="section-title" style="color:#507d2a;">Project III. Big Data Analysis & Prediction</h3> -->
-  <h3 class="main-title">Project III. Big Data Analysis & Prediction</h3>
+  <!-- <h3 class="section-title" style="color:#507d2a;">Project IV. Big Data Analysis & Prediction</h3> -->
+  <h3 class="main-title">Project IV. Big Data Analysis & Prediction</h3>
   <h4 class="sub-title">Indicators of Heart Disease</h4>
 
   <a href="https://medium.com/@nkoro/heart-health-education-is-there-something-were-missing-ee41292c7729" target="_blank">
@@ -359,11 +470,11 @@ My current focus is creating AI products that integrate seamlessly into workflow
 <!-- <hr style="border: none; border-top: 2px dotted; color:#507d2a; width: 75%; margin: auto; background: none;"> -->
 <br>
 
-<!---------------------------------------Project 4--------------------------------------------------------->
+<!---------------------------------------Project 5--------------------------------------------------------->
 
 <div class="section-card" style= "background-color: #C5CD60;">
-  <!-- <h3 class="section-title" style="color:#507d2a;">Project IV. Multi-Modal Image Synthesis</h3> -->
-  <h3 class="main-title">Project IV. Multi-Modal Image Synthesis</h3>
+  <!-- <h3 class="section-title" style="color:#507d2a;">Project V. Multi-Modal Image Synthesis</h3> -->
+  <h3 class="main-title">Project V. Multi-Modal Image Synthesis</h3>
   <h4 class="sub-title">No Cameraman Left Behind</h4>
 
   <img src="assets/img/comp-vision.png">
