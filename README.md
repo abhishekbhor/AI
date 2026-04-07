@@ -18,7 +18,7 @@
 
 .sub-title {
   margin-top: 0;
-  color:#ffffff;
+  color:#507d2a;
   font-weight: 400;
   font-size: 0.95rem;
   opacity: 0.85;
