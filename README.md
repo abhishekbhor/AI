@@ -162,9 +162,107 @@ My current focus is creating AI products that integrate seamlessly into workflow
 <br>
 
 <!---------------------------------------Project 2--------------------------------------------------------->
+<div class="section-card" style="background-color: #8FAADC;">
+  <h3 class="main-title">Project II. AI Product Copilot</h3>
+  <h4 class="sub-title" style="color:#17324D;">A Decision-Intelligence System for Product Teams</h4>
+
+  <a href="https://github.com/abhishekbhor/AI-copilot/blob/main/assets/img/architecture-diagram.png" target="_blank">
+    <img src="assets/img/architecture-diagram.png" alt="AI Product Copilot Architecture">
+  </a>
+
+  <p style="color:#ffffff;">
+    A lightweight <strong>AI Product Copilot</strong> that turns <strong>customer feedback</strong>, 
+    <strong>product signals</strong>, and <strong>business priorities</strong> into a structured, 
+    explainable roadmap recommendation.
+  </p>
+
+  <p style="color:#ffffff;">
+    Instead of acting like a generic chatbot, this project simulates how AI can support 
+    <strong>product prioritization</strong>, <strong>theme detection</strong>, and 
+    <strong>decision support</strong> in a realistic product workflow.
+  </p>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">Key Capabilities</h3>
+
+  <div class="grid">
+    <div>Theme Detection<br><small>Feedback clustering</small></div>
+    <div>Signal Scoring<br><small>Frequency + severity + sentiment</small></div>
+    <div>Metric Alignment<br><small>Business goal fit</small></div>
+    <div>Priority Logic<br><small>Weighted ranking engine</small></div>
+    <div>Roadmap Output<br><small>Now / Next / Later</small></div>
+    <div>Explainability<br><small>Rationale for each recommendation</small></div>
+  </div>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">Why this matters</h3>
+
+  <ul>
+    <li>Shows how AI can support <strong>real product decisions</strong>, not just answer questions</li>
+    <li>Connects <strong>qualitative feedback</strong> with <strong>quantitative metrics</strong></li>
+    <li>Makes prioritization more <strong>structured, transparent, and repeatable</strong></li>
+    <li>Demonstrates <strong>AI product thinking</strong> with a clear business use case</li>
+  </ul>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">System Design</h3>
+
+  <ul>
+    <li>Input pipeline for customer feedback, product metrics, and strategic goals</li>
+    <li>Theme extraction using <strong>TF-IDF + clustering</strong></li>
+    <li>Weighted scoring framework for ranking opportunities</li>
+    <li>Roadmap generation with <strong>reasoned recommendations</strong></li>
+  </ul>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">Project Links</h3>
+
+  <div class="grid">
+    <div class="link-box">
+      <strong>Repository</strong><br>
+      <a href="https://github.com/abhishekbhor/AI-copilot" target="_blank">
+        View Repository
+      </a>
+    </div>
+
+    <div class="link-box">
+      <strong>Documentation</strong><br>
+      <a href="https://github.com/abhishekbhor/AI-copilot/blob/main/README.md" target="_blank">
+        Read README
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="section-card">
+  <h3 class="section-title">Tech Stack</h3>
+
+  <p>
+    <span class="highlight">Python</span>
+    <span class="highlight">FastAPI</span>
+    <span class="highlight">TF-IDF</span>
+    <span class="highlight">KMeans</span>
+    <span class="highlight">Scoring Engine</span>
+    <span class="highlight">LLM-ready Architecture</span>
+  </p>
+</div>
+
+<br>
+<br>
+
+<!---------------------------------------Project 3--------------------------------------------------------->
 
 <div class="section-card" style="background-color: #C5CD60;">
-  <h3 class="main-title">Project II. AI Research Agent</h3>
+  <h3 class="main-title">Project III. AI Research Agent</h3>
   <h4 class="sub-title">An Agentic Research & Analysis System</h4>
 
   <!-- Optional: Add your architecture diagram -->
@@ -277,11 +375,11 @@ My current focus is creating AI products that integrate seamlessly into workflow
 <br>
 <br>
 
-<!---------------------------------------Project 3--------------------------------------------------------->
+<!---------------------------------------Project 4--------------------------------------------------------->
 
 
 <div class="section-card" style="background-color: #C5CD60;">
-  <h3 class="main-title">Project III. Observability AI Assistant</h3>
+  <h3 class="main-title">Project IV. Observability AI Assistant</h3>
   <img src="assets/img/observe-architecture.png">
 
   <p style="color:#ffffff;">
@@ -389,11 +487,11 @@ My current focus is creating AI products that integrate seamlessly into workflow
 <br>
 <br>
 
-<!---------------------------------------Project 4--------------------------------------------------------->
+<!---------------------------------------Project 5--------------------------------------------------------->
 
 <div class="section-card" style= "background-color: #C5CD60;">
-  <!-- <h3 class="section-title" style="color:#507d2a;">Project IV. Big Data Analysis & Prediction</h3> -->
-  <h3 class="main-title">Project IV. Big Data Analysis & Prediction</h3>
+  <!-- <h3 class="section-title" style="color:#507d2a;">Project V. Big Data Analysis & Prediction</h3> -->
+  <h3 class="main-title">Project V. Big Data Analysis & Prediction</h3>
   <h4 class="sub-title">Indicators of Heart Disease</h4>
 
   <a href="https://medium.com/@nkoro/heart-health-education-is-there-something-were-missing-ee41292c7729" target="_blank">
@@ -470,11 +568,11 @@ My current focus is creating AI products that integrate seamlessly into workflow
 <!-- <hr style="border: none; border-top: 2px dotted; color:#507d2a; width: 75%; margin: auto; background: none;"> -->
 <br>
 
-<!---------------------------------------Project 5--------------------------------------------------------->
+<!---------------------------------------Project 6--------------------------------------------------------->
 
 <div class="section-card" style= "background-color: #C5CD60;">
-  <!-- <h3 class="section-title" style="color:#507d2a;">Project V. Multi-Modal Image Synthesis</h3> -->
-  <h3 class="main-title">Project V. Multi-Modal Image Synthesis</h3>
+  <!-- <h3 class="section-title" style="color:#507d2a;">Project VI. Multi-Modal Image Synthesis</h3> -->
+  <h3 class="main-title">Project VI. Multi-Modal Image Synthesis</h3>
   <h4 class="sub-title">No Cameraman Left Behind</h4>
 
   <img src="assets/img/comp-vision.png">
